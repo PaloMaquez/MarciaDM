@@ -6,13 +6,14 @@
 }
 /*-----Variables-----*/
 :root {
-  --main-padding: 20px 5vw;
+  --main-padding: 9.4vw 5vw;
   --color-black: #23272a; 
   --font-family: 'Noto Serif Display', serif;
 }
 
 main {
   padding: var(--main-padding);
+  /* background-color: var(--color-black); */
 }
 h1{
 	font-family: var(--font-family);
@@ -24,20 +25,11 @@ h1{
 
 .navbar{
     font-family: var(--font-family);
-    font-size: 19px;
+    font-size: 1vw;
     letter-spacing: 2px;
     border-bottom: 1px solid #f3f3f3;
 }
 
-/* .navbar-light .navbar-nav .nav-item .nav-link:hover
-  {
-    content: attr(data-item);
-    transition: 0.5s;
-    font-weight: 100;
-    overflow: hidden;
-    width: 100%;
-    transition: all 0.2s ease-in-out;
-} */
 
 /*-----LIBROS-----*/
 
@@ -59,11 +51,6 @@ html, body {
 }
 html {
   font-size: 100%;
-}
-body {
-  font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: 400;
-  line-height: 1.2;
 }
 ul {
   margin: 0;
@@ -91,7 +78,7 @@ a {
   border-color: #16a085;
   color: #16a085;
 }
-/* basic grid, only for this demo */
+/* basic grid */
 .align {
   clear: both;
   margin: 90px auto 20px;
@@ -107,22 +94,6 @@ a {
   padding: 0 0 0 60px;
   vertical-align: top;
 }
-/* ///////////////////////////////////////////////////
- HARDCOVER
- 1. container
- 2. background & color
- 3. opening cover, back cover and pages
- 4. position, transform y transition
- 5. events
- 6. Bonus
- - Cover design
- - Ribbon
- - Figcaption
- 7. mini-reset
- /////////////////////////////////////////////////////*/
-/*
- 1. container
- */
 .book {
   position: relative;
   width: 160px;
@@ -134,10 +105,6 @@ a {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/*
- 2. background & color
- */
-/* HARDCOVER FRONT */
 .hardcover_front li:first-child {
   background-color: #eee;
   -webkit-backface-visibility: hidden;
@@ -176,7 +143,7 @@ a {
   border-radius: 0px 5px 5px 0px;
 }
 /*
- 3. opening cover, back cover and pages
+opening cover, back cover and pages
  */
 .hardcover_front {
   -webkit-transform: rotateY(-34deg) translateZ(8px);
@@ -215,7 +182,7 @@ a {
   transform: rotateY(-36deg);
 }
 /*
- 4. position, transform & transition
+position, transform & transition
  */
 .hardcover_front, .hardcover_back, .book_spine, .hardcover_front li, .hardcover_back li, .book_spine li {
   position: absolute;
@@ -546,12 +513,7 @@ a {
 .ribbon.new:before, .ribbon.new:after {
   border-bottom: 20px solid #000000;
 }
-.ribbon.bestseller {
-  background: #c0392b;
-}
-.ribbon.bestseller:before, .ribbon.bestseller:after {
-  border-bottom: 20px solid #c0392b;
-}
+
 .ribbon::before, .ribbon::after {
   position: absolute;
   top: -20px;
@@ -609,11 +571,24 @@ left: -80px;
 font-size: 90%;
 }
 }
-
-
-.jumbotron{
-	color: black;
+/* JUMBOTRON */
+/* .jumbotron {
+	margin-bottom: 0;
+	background-image: url(https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?q=80&fm=jpg&s=2d4a48d9efebce5f1b31fa58309dfecf);
+	background-size: cover;
+	background-position: 50% 50%;
+	color: white;
+	padding: 10rem;
+	padding-bottom: -10;
+	border-radius: 0;
+	text-align: center;
 }
+
+.jumbotron h1 {
+	font-family: var(--font-family);
+} */
+
+
 
 
 
