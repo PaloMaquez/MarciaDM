@@ -6,19 +6,17 @@
 }
 /*-----Variables-----*/
 :root {
-  --main-padding: 9.4vw 5vw;
+  --main-padding: 4.4vw 5vw;
   --color-black: #23272a; 
   --font-family: 'Noto Serif Display', serif;
 }
 
 main {
   padding: var(--main-padding);
-  /* background-color: var(--color-black); */
 }
 h1{
 	font-family: var(--font-family);
 	font-weight: bold;
-	font-style: italic;
 }
 
 /*-----MENU-----*/
@@ -30,6 +28,9 @@ h1{
     border-bottom: 1px solid #f3f3f3;
 }
 
+.main-tile{
+  text-align: center;
+}
 
 /*-----LIBROS-----*/
 
