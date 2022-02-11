@@ -589,6 +589,7 @@ font-size: 90%;
 .jumbotron{
   margin-bottom: 0;
   background-image: url(../assets/img/allMenT.png);
+  background-color: var(--color-black);
   background-position: 50% 50%;
   height: 84.3vh;
   min-height: 400px;
@@ -597,16 +598,13 @@ font-size: 90%;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 .jumbotron h1 {
   font-family:var(--font-family);
-  font-size: 9vh;
-  font-weight: bold;
+  font-size: 15vh;
+  font-weight:bolder;
+  font-style: italic;
   margin-top: 13vw;
   text-align: center;
   color: white;
@@ -628,8 +626,7 @@ ul{
 }
 .footer{
 	background-color: var(--color-black);
-  padding: 2.5% 5%;
-  height: 15vw;
+  padding: 0.5% 1%;
 }
 .footer-col{
     width: 50%;
