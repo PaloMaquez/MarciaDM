@@ -33,7 +33,11 @@ h1{
 }
 
 .main-tile{
+  margin-top: 4vw;
   text-align: center;
+  font-size: 4vw;
+  font-family: var(--font-family);
+  font-weight: bolder;
 }
 .dropdown-menu :hover{
 background-color: #23272aa4;
@@ -104,6 +108,7 @@ a {
   width: 500px;
   min-height: 300px;
   display: inline-block;
+  /* display: grid; */
   margin: 30px 20px 30px 30px;
   padding: 0 0 0 60px;
   vertical-align: top;
@@ -604,12 +609,36 @@ font-size: 90%;
   font-family:var(--font-family);
   font-size: 15vh;
   font-weight:bolder;
-  font-style: italic;
   margin-top: 13vw;
   text-align: center;
-  color: white;
+  color: #cccccc;
+  /* transform: translate(-50%, -50%);
+  border-right: 4px solid black;
+  white-space: nowrap;
+  overflow: hidden; */
+}
+/* #animation{
+  animation: typewriter 4s steps(15) 1s 1 normal both,
+             blinkCursor 500ms steps(15) infinite normal;
 }
 
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 214px;
+  }
+}
+
+@keyframes blinkCursor{
+  from {
+    border-right-color: black;
+  }
+  to {
+    border-right-color: transparent;
+  }
+} */
 
 /*-----FOOTER-----*/
 
@@ -634,7 +663,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: #cccccc;
 	text-transform: capitalize;
 	margin-bottom:  2.2786458333333335vw;
   margin-top: 5%;
@@ -657,7 +686,7 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #cccccc;
 	text-decoration: none;
 	font-weight: 300;
 	color: #e2dddd;
@@ -665,7 +694,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: #cccccc;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -677,17 +706,17 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 30%;
-	color: #ffffff;
+	color: #cccccc;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: #cccccc;
 }
 .footer p {
     font-family: var(--font-family);
-    color: #aaa6a6;
-    font-weight: 400;
+    color: #cccccc;
+    font-weight: 300;
     text-align: center;
     margin-top: 2vw;
     text-align: end;
@@ -698,6 +727,9 @@ ul{
     width: 50%;
     margin-bottom: 30px;
 }
+  .footer p {
+  font-size: 3.5vw;
+  }
 }
 @media(max-width: 574px){
   .footer-col{
@@ -709,8 +741,11 @@ ul{
   background:rgba(95, 95, 95, 0);
   clear:left; 
   font:14px Helvetica,Arial,sans-serif;  
-  color: #ffffff;
+  color: #cccccc;
   width:15vw;
+}
+#mc_embed_signup h2{
+  font-family: var(--font-family);
 }
 
 /*sobre mi*/
