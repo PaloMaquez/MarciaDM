@@ -22,7 +22,6 @@ h1{
   --font-family: 'Noto Serif Display', serif;
 }
 
-
 /*-----MENU-----*/
 
 .navbar{
@@ -109,7 +108,7 @@ a {
   min-height: 300px;
   display: inline-block;
   /* display: grid; */
-  margin: 30px 20px 30px 30px;
+  margin: 30px 20px 50px 30px;
   padding: 0 0 0 60px;
   vertical-align: top;
 }
@@ -590,7 +589,9 @@ left: -80px;
 font-size: 90%;
 }
 }
-
+.icon{
+  padding-top: 9vw ;
+}
 .jumbotron{
   margin-bottom: 0;
   background-image: url(../assets/img/allMenT.png);
@@ -760,13 +761,24 @@ ul{
   }
   .main-title{
     font-size: 7vw;
-    padding-top: 10vw;
+    margin-top: 10vw;
+    font-style: italic;
+  }
+  .icon{
+    padding-top: 30vw;
+  }
+  h1{
+    font-size: 5vw;
+    padding-top: 3vw;
   }
 }
 @media screen 
   and (max-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+    .navbar{
+      font-size: 2vw;
+    }
     #mc_embed_signup{
       width:30vw;
     }
