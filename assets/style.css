@@ -771,6 +771,13 @@ ul{
     font-size: 5vw;
     padding-top: 3vw;
   }
+  .jumbotron h1 {
+    font-size: 11vh;
+    padding-top: 40vw;
+  }
+  .jumbotron{
+    /* background-image: url(./img/shutterstock_1494301553.jpg); */
+  }
 }
 @media screen 
   and (max-width: 1200px) 
