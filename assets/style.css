@@ -11,6 +11,10 @@ html, body {
 html {
   font-size: 100%;
 }
+h1{
+  font-family: var(--font-family);
+  font-size: 2vw ;
+}
 /*-----Variables-----*/
 :root {
   --main-padding: 20.6vw 5vw;
@@ -18,10 +22,6 @@ html {
   --font-family: 'Noto Serif Display', serif;
 }
 
-h1{
-	font-family: var(--font-family);
-	font-weight: bold;
-}
 
 /*-----MENU-----*/
 
@@ -32,8 +32,8 @@ h1{
     border-bottom: 1px solid #f3f3f3;
 }
 
-.main-tile{
-  margin-top: 4vw;
+.main-title{
+  padding-top: 4vw;
   text-align: center;
   font-size: 4vw;
   font-family: var(--font-family);
@@ -612,33 +612,7 @@ font-size: 90%;
   margin-top: 13vw;
   text-align: center;
   color: #cccccc;
-  /* transform: translate(-50%, -50%);
-  border-right: 4px solid black;
-  white-space: nowrap;
-  overflow: hidden; */
 }
-/* #animation{
-  animation: typewriter 4s steps(15) 1s 1 normal both,
-             blinkCursor 500ms steps(15) infinite normal;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 214px;
-  }
-}
-
-@keyframes blinkCursor{
-  from {
-    border-right-color: black;
-  }
-  to {
-    border-right-color: transparent;
-  }
-} */
 
 /*-----FOOTER-----*/
 
@@ -780,6 +754,10 @@ ul{
 @media screen and (max-width: 600px){
   #mc_embed_signup{
     width:50vw;
+  }
+  .main-title{
+    font-size: 7vw;
+    padding-top: 10vw;
   }
 }
 @media screen 
