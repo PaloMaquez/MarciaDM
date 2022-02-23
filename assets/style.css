@@ -752,6 +752,9 @@ ul{
   width: 30%;
 }
 @media screen and (max-width: 600px){
+  .navbar{
+    font-size: 5vw;
+  }
   #mc_embed_signup{
     width:50vw;
   }
