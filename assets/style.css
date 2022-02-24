@@ -713,13 +713,46 @@ ul{
 }
 
 /*sobre mi*/
-.aboutMe-background{
-  background-color: var(--color-black);
-}
 .pic-about{
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
   width: 100%;
   height: auto;
+}
+.sobreMi{
+  font-size: 4vw;
+  margin-right: 60vw;
+  margin-bottom: 10vw;
+  padding-top: 15vw;
+  transform: rotate(-90.00deg);
+  
+}
+.intro {
+  font-family: var(--font-family);
+  padding: 0;
+  width: 100%;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 100vw;
+  text-align: justify;
+  width: 50%;
+  padding-left: 11vw;
+  padding-bottom: 1vw;
+}
+.span-about{
+  font-weight: bolder;
+  font-size: 1.1vw;
+}
+.typewriter{
+  margin-left: 45vw;
+  margin-top: -25vw;
+}
+.aboutme-Todo{
+  margin-top: -5vw;
 }
 /*MEDIA QUERYS*/
 @media screen and (max-width: 600px){
