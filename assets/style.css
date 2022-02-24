@@ -758,8 +758,8 @@ ul{
 }
 /*MEDIA QUERYS*/
 @media screen and (max-width: 600px){
-  .navbar{
-    font-size: 20vw;
+  .nav-item a{
+    font-size: 5vw;
   }
   #mc_embed_signup{
     width:50vw;
@@ -788,7 +788,7 @@ ul{
   and (max-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
-    .navbar{
+    .nav-item a{
       font-size: 2vw;
     }
     #mc_embed_signup{
