@@ -15,21 +15,6 @@ h1{
   font-family: var(--font-family);
   font-size: 2vw ;
 }
-/*-----Variables-----*/
-:root {
-  --main-padding: 20.6vw 5vw;
-  --color-black: #23272a; 
-  --font-family: 'Noto Serif Display', serif;
-}
-
-/*-----MENU-----*/
-
-.navbar{
-    font-family: var(--font-family);
-    font-size: 1vw;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #f3f3f3;
-}
 
 .main-title{
   padding-top: 4vw;
@@ -38,6 +23,21 @@ h1{
   font-family: var(--font-family);
   font-weight: bolder;
 }
+/*-----Variables-----*/
+:root {
+  --main-padding: 20.6vw 5vw;
+  --color-black: #23272a; 
+  --font-family: 'Noto Serif Display', serif;
+}
+/*-----MENU-----*/
+
+.navbar{
+    font-family: var(--font-family);
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
 .dropdown-menu :hover{
 background-color: #23272aa4;
 }
@@ -590,7 +590,8 @@ font-size: 90%;
 }
 }
 .icon{
-  padding-top: 9vw ;
+  padding-top: 1vw ;
+  padding-bottom: 1vw;
 }
 .jumbotron{
   margin-bottom: 0;
@@ -611,13 +612,13 @@ font-size: 90%;
 }
 .jumbotron h1 {
   font-family:var(--font-family);
-  font-size: 15vh;
+  font-size: 18vh;
+  letter-spacing: 1vw;
   font-weight:bolder;
   margin-top: 13vw;
   text-align: center;
   color: #cccccc;
 }
-
 /*-----FOOTER-----*/
 
 .container{
@@ -755,9 +756,10 @@ ul{
   margin-top: 12.5%;
   width: 30%;
 }
+/*MEDIA QUERYS*/
 @media screen and (max-width: 600px){
   .navbar{
-    font-size: 5vw;
+    font-size: 20vw;
   }
   #mc_embed_signup{
     width:50vw;
@@ -778,9 +780,9 @@ ul{
     font-size: 11vh;
     padding-top: 40vw;
   }
-  .jumbotron{
-    /* background-image: url(./img/shutterstock_1494301553.jpg); */
-  }
+  /* .jumbotron{
+    background-image: url(./img/shutterstock_1494301553.jpg);
+  } */
 }
 @media screen 
   and (max-width: 1200px) 
