@@ -30,31 +30,16 @@ h1{
   --font-family: 'Noto Serif Display', serif;
 }
 /*-----MENU-----*/
-
 .navbar{
     font-family: var(--font-family);
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     letter-spacing: 2px;
     border-bottom: 1px solid #f3f3f3;
 }
 
 .dropdown-menu :hover{
-background-color: #23272aa4;
+background-color: #23272a17;
 }
-/* .navbar-light .navbar-toggler{
-  color: transparent!important;
-  border-color: transparent!important;
-}
-.navbar-light .navbar-nav .nav-item .nav-link:hover
-  {
-  content: attr(data-item);
-  transition: 0.5s;
-  color: black;
-  font-weight: 100;
-  overflow: hidden;
-  width: 100%;
-  transition: all 0.2s ease-in-out;
-} */
 /*-----LIBROS-----*/
 
 *, *:after, *:before {
@@ -785,6 +770,7 @@ ul{
   } */
 }
 @media screen 
+  and (min-width: 650)
   and (max-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
