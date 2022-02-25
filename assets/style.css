@@ -742,6 +742,8 @@ ul{
   width: 50%;
   padding-left: 11vw;
   padding-bottom: 1vw;
+  line-height: 20pt;
+  white-space:normal;
 }
 .span-about{
   font-weight: bolder;
@@ -781,6 +783,31 @@ ul{
   /* .jumbotron{
     background-image: url(./img/shutterstock_1494301553.jpg);
   } */
+  .typewriter{
+    display: none;
+  }
+  .sobreMi{
+    font-size: 15vw;
+    margin-top: 20vw;
+    text-align: center;
+    transform: none;
+    margin-right: 0vw;
+    padding-top: 10vw;
+  }
+  .intro{
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: justify;
+    top: auto;
+    width: 85%;
+    padding-left: 0vw;
+  }
+  .span-about{
+    font-size: 3vw;
+  }
 }
 @media screen 
   and (min-width: 650)
