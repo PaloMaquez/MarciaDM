@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,500&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -712,7 +713,7 @@ ul{
   font-family: var(--font-family);
 }
 
-/*sobre mi*/
+/*-----SOBRE MI-----*/
 .pic-about{
   background-repeat: no-repeat;
   background-size: cover;
@@ -788,7 +789,7 @@ ul{
   }
   .sobreMi{
     font-size: 15vw;
-    margin-top: 20vw;
+    margin-top: 10vw;
     text-align: center;
     transform: none;
     margin-right: 0vw;
@@ -799,23 +800,56 @@ ul{
     background-color: transparent;
     justify-content: center;
     margin: 0 auto;
-    max-width: 850px;
     text-align: justify;
     top: auto;
     width: 85%;
     padding-left: 0vw;
+    font-size: 4vw;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
   }
   .span-about{
-    font-size: 3vw;
+    font-size: 4vw;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+}
+@media screen and (min-width: 700px) and (max-width:1000px){
+  .span-about{
+    font-size: 2.5vw;
+  }
+  .sobreMi{
+    font-size: 9.5vw;
+    margin-top: 30vw;
+  }
+  .intro{
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: justify;
+    top: auto;
+    width: 80%;
+    padding-left: 0vw;
+    font-size: 2vw;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .typewriter{
+    margin-top: -45vw;
   }
 }
 @media screen 
-  and (min-width: 650)
+  and (min-width: 1010px)
   and (max-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     .nav-item a{
-      font-size: 2vw;
+      font-size: 2.5vw;
     }
     #mc_embed_signup{
       width:30vw;
