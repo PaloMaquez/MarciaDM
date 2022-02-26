@@ -938,3 +938,23 @@ background: linear-gradient(to right, #23272a, #bdc3c7); /* W3C, IE 10+/ Edge, F
     max-width: 45vw;
   }
   }
+
+  #exampleModal{
+    color: var(--color-black);
+  }
+  .review{
+    background-size: cover;
+    width: 100%;
+    display: block;
+  }
+  .modal-body{
+    display: block;
+    padding: 0rem;
+  }
+  .modal-header{
+    background-color: var(--color-black);
+  }
+  .modal-header .btn-close{
+    background-color: white;
+  }    
+  
