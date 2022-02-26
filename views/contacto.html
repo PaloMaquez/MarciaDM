@@ -25,7 +25,7 @@
     <meta property="og:locale" content="es_AR">
     <title>Marcia DM</title>
 </head>
-<body>
+<body class="img-contact">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid d-lg-flex">
@@ -65,7 +65,26 @@
             </div>
         </nav>
     </header>
-    <main>      
+    <main > 
+        <div class="containerC">
+            <h1 class="cont-title"> Contacto</h1>
+            <form class="contact_form">
+                <label for="fname">Nombre y Apellido</label>
+                <input type="text" class="name" id="fname" required name="firstname" placeholder="Nombre y Apellido">
+            
+                <label for="Asunto">Asunto</label>
+                <input type="text" id="Asunto" class="asunto" required name="Asunto" placeholder="Asunto">
+            
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" class="email" required name="email" placeholder="Email">
+            
+            
+                <label for="subject">Mensaje</label>
+                <textarea id="subject" name="subject" class="msj" placeholder="Escriba Aquí..." rows="3" required  style="height:200px"></textarea>
+            
+                <input type="submit" value="Enviar" class="boton">
+            </form>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -111,5 +130,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../assets/main.js"></script>
 </body>
 </html>

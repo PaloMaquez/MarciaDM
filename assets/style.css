@@ -582,6 +582,7 @@ font-size: 90%;
 .jumbotron{
   margin-bottom: 0;
   background-image: url(../assets/img/allMenT.png);
+    /* background-image: url(../assets/img/website.png); */
   background-color: var(--color-black);
   background-position: 50% 50%;
   height: 84.3vh;
@@ -603,8 +604,9 @@ font-size: 90%;
   font-weight:bolder;
   margin-top: 13vw;
   text-align: center;
-  color: #cccccc;
+  color: #d3d3d3;
 }
+
 /*-----FOOTER-----*/
 
 .container{
@@ -757,6 +759,74 @@ ul{
 .aboutme-Todo{
   margin-top: -5vw;
 }
+/* 
+.splash-arrow-img {
+    cursor: pointer;
+    margin-top: 50%;
+    position: absolute;
+    width: 2vw;
+    margin-left: 47.5vw;
+} */
+/*-----CONTACTO-----*/
+input[type=text], textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+label{margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;}
+
+input[type=submit] {
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #23272a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #23272a);
+  color: #d3d3d3;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+input[type=submit]:hover {
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #23272a, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #23272a, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #d3d3d3;
+}
+
+.containerC {
+  box-sizing : border-box;
+  border-radius:20px;
+  background-color:#23272a;
+  padding:2vw;
+  width: 100%;
+  max-width: 30vw;
+  margin:0 auto;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.cont-title  {
+  color: #d3d3d3;
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
+}
+.img-contact{
+  background-image: url('https://images.unsplash.com/photo-1498230870289-7561110a6e69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*MEDIA QUERYS*/
 @media screen and (max-width: 600px){
   .nav-item a{
@@ -854,4 +924,7 @@ ul{
     #mc_embed_signup{
       width:30vw;
     }
+    /* .sobreMi{
+
+    } */
   }
