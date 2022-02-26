@@ -862,9 +862,10 @@ input[type=submit]:hover {
     font-size: 11vh;
     padding-top: 40vw;
   }
-  /* .jumbotron{
-    background-image: url(./img/shutterstock_1494301553.jpg);
-  } */
+  .jumbotron{
+    background-image: url(./img/phoneindex.png);
+    background-attachment:inherit;
+  }
   .typewriter{
     display: none;
   }
