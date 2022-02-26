@@ -78,8 +78,8 @@ a {
   transition: color 0.3s, border-color 0.3s;
 }
 .btn:hover {
-  border-color: #16a085;
-  color: #16a085;
+  border-color: #a01616;
+  color: #a01616;
 }
 /* basic grid */
 .align {
@@ -821,7 +821,9 @@ input[type=submit]:hover {
 .img-contact{
   /* background-image: url('https://images.unsplash.com/photo-1498230870289-7561110a6e69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
   background-image: url(../assets/img/phone.png);
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
 }
 /*MEDIA QUERYS*/
@@ -956,3 +958,20 @@ input[type=submit]:hover {
     background-color: white;
   }    
   
+
+  .form-status-footer {
+    display: none;
+    visibility: hidden;
+  }
+  .prueba{
+    background-image: url(../assets/img/phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  }
