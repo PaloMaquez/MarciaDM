@@ -581,8 +581,7 @@ font-size: 90%;
 }
 .jumbotron{
   margin-bottom: 0;
-  background-image: url(../assets/img/allMenT.png);
-    /* background-image: url(../assets/img/website.png); */
+  background-image: url(../assets/img/website.png);
   background-position: 50% 50%;
   height: 84.3vh;
   min-height: 400px;
@@ -595,7 +594,11 @@ font-size: 90%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+background-position: center center;
+background-size: cover;
 }
+
 .jumbotron h1 {
   font-family:var(--font-family);
   font-size: 18vh;
@@ -757,6 +760,16 @@ ul{
 }
 .aboutme-Todo{
   margin-top: -5vw;
+  background-image: url(../assets/img/phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 /* 
 .splash-arrow-img {
@@ -819,7 +832,6 @@ input[type=submit]:hover {
   font-size: 4vw;
 }
 .img-contact{
-  /* background-image: url('https://images.unsplash.com/photo-1498230870289-7561110a6e69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
   background-image: url(../assets/img/phone.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -972,6 +984,6 @@ input[type=submit]:hover {
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
+    background-position: center center;
+    background-size: cover;
   }
