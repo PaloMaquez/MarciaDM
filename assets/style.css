@@ -583,7 +583,6 @@ font-size: 90%;
   margin-bottom: 0;
   background-image: url(../assets/img/allMenT.png);
     /* background-image: url(../assets/img/website.png); */
-  background-color: var(--color-black);
   background-position: 50% 50%;
   height: 84.3vh;
   min-height: 400px;
@@ -604,7 +603,7 @@ font-size: 90%;
   font-weight:bolder;
   margin-top: 13vw;
   text-align: center;
-  color: #d3d3d3;
+  color: #ffffff;
 }
 
 /*-----FOOTER-----*/
@@ -885,7 +884,9 @@ background: linear-gradient(to right, #23272a, #bdc3c7); /* W3C, IE 10+/ Edge, F
     font-weight: 600;
     font-style: italic;
   }
-
+  .containerC{
+    max-width: 85vw;
+  }
 }
 @media screen and (min-width: 700px) and (max-width:1000px){
   .span-about{
@@ -912,6 +913,9 @@ background: linear-gradient(to right, #23272a, #bdc3c7); /* W3C, IE 10+/ Edge, F
   .typewriter{
     margin-top: -45vw;
   }
+  .containerC{
+    max-width: 55vw;
+  }
 }
 @media screen 
   and (min-width: 1010px)
@@ -924,7 +928,7 @@ background: linear-gradient(to right, #23272a, #bdc3c7); /* W3C, IE 10+/ Edge, F
     #mc_embed_signup{
       width:30vw;
     }
-    /* .sobreMi{
-
-    } */
+  .containerC{
+    max-width: 45vw;
+  }
   }
