@@ -638,7 +638,7 @@ ul{
 }
 .footer{
 	background-color: var(--color-black);
-  padding: 1% 1%;
+  padding: 2% 1.5%;
 }
 .footer-col{
     width: 50%;
@@ -850,14 +850,12 @@ input[type=submit]:hover {
   font-size: 4vw;
 }
 .img-contact{
-  background-image: url(../assets/img/postal.png);
+  background-image: url(../assets/img/phone.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
-
-
 /*MEDIA QUERYS*/
 @media screen and (max-width: 600px){
   .nav-item a{
@@ -929,9 +927,6 @@ input[type=submit]:hover {
   .tornpaper{
     background-image: url(../assets/img/tornpaper.png);
   } */
-  .img-contact{
-    background-image: url(../assets/img/phoneContact.png);
-  }
 }
 @media screen and (min-width: 700px) and (max-width:1000px){
   .span-about{
@@ -963,9 +958,6 @@ input[type=submit]:hover {
   }
   .cont-title {
     font-size: 8vw;
-  }
-  .img-contact{
-    background-image: url(../assets/img/tabletContact.png);
   }
 }
 @media screen 
@@ -1062,8 +1054,4 @@ input[type=submit]:hover {
   .inicio{
     color: #a83636;
     text-decoration: underline;
-  }
-  .thankyou{
-    display: none;
-    visibility: hidden;
   }
