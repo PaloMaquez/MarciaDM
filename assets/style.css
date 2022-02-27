@@ -742,6 +742,10 @@ ul{
   width: 100%;
   height: auto;
 }
+.tornpaper{
+  display: none;
+  visibility: hidden;
+}
 .sobreMi{
   font-size: 4vw;
   margin-right: 60vw;
@@ -917,6 +921,12 @@ input[type=submit]:hover {
   .cont-title {
     font-size: 10vw;
   }
+  /* .pic-about{
+    visibility: hidden;
+  }
+  .tornpaper{
+    background-image: url(../assets/img/tornpaper.png);
+  } */
 }
 @media screen and (min-width: 700px) and (max-width:1000px){
   .span-about{
