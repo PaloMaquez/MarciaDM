@@ -68,23 +68,28 @@
     <main > 
         <div class="containerC">
             <h1 class="cont-title"> Contacto</h1>
-            <form class="contact_form"  action="https://formspree.io/f/xvolropw"
-            method="POST">
-                <label for="fname">Nombre y Apellido</label>
-                <input type="text" class="name" id="fname" required name="firstname" placeholder="Nombre y Apellido">
+            <form class="contact_form" id="form" action="https://formspree.io/f/xgedyewy"
+            method="POST"> 
+                <label for="name">Nombre y Apellido</label>
+                <input type="text" class="name" id="fname" required name="name" placeholder="Nombre y Apellido">
+                
+                    <label for="emailAddress">Email</label>
+                    <input id="emailAddress" type="email" class="email" required name="email" placeholder="Email">
             
-                <label for="Asunto">Asunto</label>
-                <input type="text" id="Asunto" class="asunto" required name="Asunto" placeholder="Asunto">
-            
-                <label for="emailAddress">Email</label>
-                <input id="emailAddress" type="email" class="email" required name="email" placeholder="Email">
-            
+                <label for="asunto">Asunto</label>
+                <input type="text" id="Asunto" class="asunto" required name="subject" placeholder="Asunto">
             
                 <label for="subject">Mensaje</label>
-                <textarea id="subject" name="subject" class="msj" placeholder="Escriba Aquí..." rows="3" required  style="height:200px"></textarea>
+                <textarea id="subject" name="message" class="msj" placeholder="Escriba Aquí..." rows="3" required  style="height:200px"></textarea>
             
-                <input type="submit" value="Enviar" class="boton">
+                <input type="submit" value="Enviar"  class="boton">
             </form>
+        </div>
+        <div class="thankyou hidden">
+            <h1 class="contact-out">
+                Gracias por contactarse.¡Te responderemos cuanto antes!
+            </h1>
+            <h3 class="back">Volver al <a href="index.html" class="inicio">inicio</a> </h3>
         </div>
     </main>
     <footer class="footer">
