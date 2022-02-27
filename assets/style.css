@@ -620,7 +620,7 @@ background-size: cover;
   font-weight:bolder;
   margin-top: 13vw;
   text-align: center;
-  color: #ffffff;
+  color: transparent;
 }
 
 /*-----FOOTER-----*/
@@ -850,7 +850,7 @@ input[type=submit]:hover {
   font-size: 4vw;
 }
 .img-contact{
-  background-image: url(../assets/img/phone.png);
+  background-image: url(../assets/img/postal.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -921,14 +921,14 @@ input[type=submit]:hover {
   .cont-title {
     font-size: 10vw;
   }
-  /* .pic-about{
-    visibility: hidden;
+  .img-contact{
+    background-image: url(../assets/img/phoneContact.png);
   }
-  .tornpaper{
-    background-image: url(../assets/img/tornpaper.png);
-  } */
+  #mc_embed_signup{
+    width: 31vw;
+  }
 }
-@media screen and (min-width: 700px) and (max-width:1000px){
+@media screen and (min-width: 650px) and (max-width:1000px){
   .span-about{
     font-size: 2.5vw;
   }
@@ -958,6 +958,12 @@ input[type=submit]:hover {
   }
   .cont-title {
     font-size: 8vw;
+  }
+  .img-contact{
+    background-image: url(../assets/img/tabletContact.png);
+  }
+  #mc_embed_signup{
+    width: 31vw;
   }
 }
 @media screen 
@@ -1012,46 +1018,4 @@ input[type=submit]:hover {
     background-position: center center;
     background-size: cover;
   }
-  /*graciasporcontactarnos*/
-  .contact-out{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: bold;
-    font-style: italic;
-    font-size: 6vw;
-  }
-  .back-back{
-    background-image: url(../assets/img/postal.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-position: center center;
-    background-size: cover;
-  }
-  .back{
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1vw;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-  .inicio{
-    color: #a83636;
-    text-decoration: underline;
-  }
+}
