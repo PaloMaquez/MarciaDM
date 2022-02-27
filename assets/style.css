@@ -42,6 +42,11 @@ h1{
 background-color: #23272a17;
 }
 /*-----LIBROS-----*/
+.books-title{
+  font-family: var(--font-family);
+  font-size: 2vw;
+  font-style: italic;
+}
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -495,6 +500,7 @@ Bonus
   color: #fff;
   display: block;
   font-size: 0.7em;
+  font-family: var(--font-family);
   position: absolute;
   top: 11px;
   right: 1px;
@@ -516,6 +522,14 @@ Bonus
 }
 .ribbon.new:before, .ribbon.new:after {
   border-bottom: 20px solid #000000;
+}
+.ribbon.soon{
+  background: white;
+  color: #000000;
+  font-weight:bolder;
+}
+.ribbon.soon:before, .ribbon.soon:after {
+  border-bottom: 20px solid white;
 }
 
 .ribbon::before, .ribbon::after {
