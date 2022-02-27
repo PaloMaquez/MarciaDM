@@ -850,12 +850,14 @@ input[type=submit]:hover {
   font-size: 4vw;
 }
 .img-contact{
-  background-image: url(../assets/img/phone.png);
+  background-image: url(../assets/img/postal.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
+
+
 /*MEDIA QUERYS*/
 @media screen and (max-width: 600px){
   .nav-item a{
@@ -927,6 +929,9 @@ input[type=submit]:hover {
   .tornpaper{
     background-image: url(../assets/img/tornpaper.png);
   } */
+  .img-contact{
+    background-image: url(../assets/img/phoneContact.png);
+  }
 }
 @media screen and (min-width: 700px) and (max-width:1000px){
   .span-about{
@@ -958,6 +963,9 @@ input[type=submit]:hover {
   }
   .cont-title {
     font-size: 8vw;
+  }
+  .img-contact{
+    background-image: url(../assets/img/tabletContact.png);
   }
 }
 @media screen 
