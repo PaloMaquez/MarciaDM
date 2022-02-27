@@ -789,15 +789,9 @@ ul{
   background-position: center center;
   background-size: cover;
 }
-/* 
-.splash-arrow-img {
-    cursor: pointer;
-    margin-top: 50%;
-    position: absolute;
-    width: 2vw;
-    margin-left: 47.5vw;
-} */
+
 /*-----CONTACTO-----*/
+
 input[type=text], textarea, input[type=email] {
   width: 100%;
   padding: 12px;
@@ -856,7 +850,8 @@ input[type=submit]:hover {
   background-position: center center;
   background-size: cover;
 }
-/*MEDIA QUERYS*/
+
+/*-----MEDIA QUERYS-----*/
 @media screen and (max-width: 600px){
   .nav-item a{
     font-size: 5vw;
@@ -980,8 +975,6 @@ input[type=submit]:hover {
   .containerC{
     max-width: 45vw;
   }
-  }
-
   #exampleModal{
     color: var(--color-black);
   }
