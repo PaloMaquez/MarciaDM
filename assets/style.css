@@ -609,8 +609,6 @@ font-size: 90%;
   -o-background-size: cover;
   background-position: center;
   background-attachment: fixed;
-background-position: center center;
-background-size: cover;
 }
 
 .jumbotron h1 {
@@ -959,6 +957,15 @@ input[type=submit]:hover {
   }
   #mc_embed_signup{
     width: 31vw;
+  }
+  .jumbotron{
+    background-image: url(../assets/img/phoneindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position:top;
   }
 }
 @media screen 
