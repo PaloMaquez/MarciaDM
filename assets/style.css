@@ -57,7 +57,7 @@ background-color: #23272a17;
 }
 .books-title{
   font-family: var(--font-family);
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-style: italic;
 }
 
@@ -876,7 +876,7 @@ input[type=submit]:hover {
     font-style: italic;
   }
   .icon{
-    padding-top: 30vw;
+    padding-top: 40vw;
   }
   h1{
     font-size: 5vw;
@@ -933,6 +933,9 @@ input[type=submit]:hover {
   #mc_embed_signup{
     width: 31vw;
   }
+  .books-title{
+    font-size: 5vw;
+  }
 }
 @media screen and (min-width: 650px) and (max-width:1000px){
   .span-about{
@@ -980,6 +983,9 @@ input[type=submit]:hover {
     -o-background-size: cover;
     background-position:top;
   }
+  .books-title{
+    font-size: 4vw;
+  }
 }
 @media screen 
   and (min-width: 1010px)
@@ -1011,6 +1017,9 @@ input[type=submit]:hover {
   .form-status-footer {
     display: none;
     visibility: hidden;
+  }
+  .books-title{
+    font-size: 3vw;
   }
 }
 .review{
