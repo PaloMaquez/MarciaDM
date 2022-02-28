@@ -33,6 +33,7 @@ h1{
 /*-----MENU-----*/
 .navbar{
     font-family: var(--font-family);
+    /* font-family: 'Lora', serif; */
     font-size: 1.1vw;
     letter-spacing: 2px;
     border-bottom: 1px solid #f3f3f3;
@@ -844,7 +845,7 @@ input[type=submit]:hover {
   width: 100%;
   max-width: 30vw;
   margin:0 auto;
-  margin-top: 5vw;
+  margin-top: 1vw;
   margin-bottom: 5vw;
 }
 .cont-title  {
