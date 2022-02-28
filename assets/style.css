@@ -16,7 +16,6 @@ h1{
   font-family: var(--font-family);
   font-size: 2vw ;
 }
-
 .main-title{
   padding-top: 4vw;
   text-align: center;
@@ -32,15 +31,18 @@ h1{
 }
 /*-----MENU-----*/
 .navbar{
-    font-family: var(--font-family);
-    /* font-family: 'Lora', serif; */
+    /* font-family: var(--font-family); */
+    font-family: 'Lora', serif;
     font-size: 1.1vw;
     letter-spacing: 2px;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)
+    
 }
-
+.backNav{
+  background-image: url(../assets/img/phone.png);
+}
 .dropdown-menu :hover{
-background-color: #23272a17;
+background-color: #d4c4b6;
 }
 /*-----LIBROS-----*/
 .prueba{
@@ -621,7 +623,6 @@ font-size: 90%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .jumbotron h1 {
@@ -1036,4 +1037,7 @@ input[type=submit]:hover {
 }
 textarea {
   resize: none;
+}
+.singleBook{
+  padding: 2.9vw;
 }
