@@ -15,7 +15,6 @@ async function handleSubmit(event) {
     })
     if (response.ok) {
         this.reset()
-        alert ('Mensaje Enviado');
     }
 }
 
