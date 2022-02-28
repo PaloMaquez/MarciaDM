@@ -997,17 +997,10 @@ input[type=submit]:hover {
   #exampleModal{
     color: var(--color-black);
   }
-  .review{
-    background-size: cover;
-    width: 100%;
-    display: block;
-  }
+
   .modal-body{
     display: block;
     padding: 0rem;
-  }
-  .modal-header{
-    background-color: var(--color-black);
   }
   .modal-header .btn-close{
     background-color: white;
@@ -1018,4 +1011,19 @@ input[type=submit]:hover {
     display: none;
     visibility: hidden;
   }
+}
+.review{
+  background-size: cover;
+  background-color: var(--color-black);
+  width: 100%;
+  display:block;
+}
+.modal-body{
+  padding: 0rem;
+}
+.modal-header{
+  background-image: url(../assets/img/phone.png);
+}
+textarea {
+  resize: none;
 }

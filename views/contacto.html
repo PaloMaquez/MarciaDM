@@ -82,15 +82,22 @@
                 <label for="subject">Mensaje</label>
                 <textarea id="subject" name="message" class="msj" placeholder="Escriba Aquí..." rows="3" required  style="height:200px"></textarea>
             
-                <input type="submit" value="Enviar"  class="boton">
+                <input type="submit" value="Enviar"  class="boton" data-bs-toggle="modal" data-bs-target="#exampleModal0">
             </form>
         </div>
-        <!-- <div class="thankyou hidden">
-            <h1 class="contact-out">
-                Gracias por contactarse.¡Te responderemos cuanto antes!
-            </h1>
-            <h3 class="back">Volver al <a href="index.html" class="inicio">inicio</a> </h3>
-        </div> -->
+                                <!-- Modal 0-->
+                                <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <img src="../assets/img/send.png" alt="" class="review">
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
     </main>
     <footer class="footer">
         <div class="container">
