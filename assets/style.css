@@ -42,6 +42,18 @@ h1{
 background-color: #23272a17;
 }
 /*-----LIBROS-----*/
+.prueba{
+  background-image: url(../assets/img/phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
 .books-title{
   font-family: var(--font-family);
   font-size: 2vw;
@@ -1005,17 +1017,5 @@ input[type=submit]:hover {
   .form-status-footer {
     display: none;
     visibility: hidden;
-  }
-  .prueba{
-    background-image: url(../assets/img/phone.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
   }
 }
