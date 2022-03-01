@@ -40,6 +40,8 @@ h1{
 .backNav{
   background-image: url(../assets/img/phone2.webp);
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .dropdown-menu :hover{
 background-color: #d4c4b6;
@@ -857,7 +859,7 @@ input[type=submit]:hover {
   font-size: 4vw;
 }
 .img-contact{
-  background-image: url(../assets/img/postal.png);
+  background-image: url(../assets/img/postal2.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
