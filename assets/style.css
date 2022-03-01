@@ -31,7 +31,6 @@ h1{
 }
 /*-----MENU-----*/
 .navbar{
-    /* font-family: var(--font-family); */
     font-family: 'Lora', serif;
     font-size: 1.1vw;
     letter-spacing: 2px;
@@ -39,14 +38,16 @@ h1{
     
 }
 .backNav{
-  background-image: url(../assets/img/phone.png);
+  background-image: url(../assets/img/phone2.webp);
+  width: 100%;
 }
 .dropdown-menu :hover{
 background-color: #d4c4b6;
 }
 /*-----LIBROS-----*/
 .prueba{
-  background-image: url(../assets/img/phone.png);
+  background-image: url(../assets/img/phone2.webp);
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -790,7 +791,7 @@ ul{
 }
 .aboutme-Todo{
   margin-top: -5vw;
-  background-image: url(../assets/img/phone.png);
+  background-image: url(../assets/img/phone2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -861,6 +862,7 @@ input[type=submit]:hover {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  width: 100%;
 }
 
 /*-----MEDIA QUERYS-----*/
@@ -1033,7 +1035,7 @@ input[type=submit]:hover {
   padding: 0rem;
 }
 .modal-header{
-  background-image: url(../assets/img/phone.png);
+  background-image: url(../assets/img/phone2.webp);
 }
 textarea {
   resize: none;
